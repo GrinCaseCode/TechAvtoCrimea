@@ -1317,3 +1317,25 @@ input[type=number]
 .buttons-mobile {
 	display: none;
 }
+.slick-dots {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.slick-dots li {
+	width: 10px;
+	height: 10px;
+}
+.slick-dots li button {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+	    background-color: #001d3d;
+	    transition: all 0.3s;
+}
+.slick-dots li:hover button,
+.slick-dots li.slick-active button {
+	background-color: #ffd60a;
+}
