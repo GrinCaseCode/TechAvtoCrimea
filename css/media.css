@@ -194,6 +194,21 @@
     padding: 0 28px;
     margin-bottom: 10px;
 }
+.item-vacancies__head {
+    padding: 26px 25px;
+    font-size: 24px;
+    }
+    .item-vacancies__content {
+        padding: 25px;
+        padding-top: 0;
+    }
+    .item-vacancies__inner {
+        min-height: initial;
+    }
+        .card-info__middle {
+        display: block;
+        padding-bottom: 20px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -370,6 +385,12 @@
     .title-section_desktop {
         display: none;
     }
+.card-info {
+    margin-top: 20px;
+}
+.card-info__middle {
+    display: flex;
+}
 }
 
 /* Small Devices, Tablets */
@@ -677,6 +698,54 @@
     white-space: normal;
     margin-top: 20px;
 }
+.vacancies .title-section {
+    padding-bottom: 25px;
+}
+.item-vacancies__content .btn-main {
+    margin-top: 10px;
+}
+.page-inner h2, .page-inner h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    }
+    .links-page a {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 31px;
+}
+.links-page {
+    padding-bottom: 20px;
+}
+.card .col-lg-5.col-md-9 {
+    order: -1;
+}
+.slider-nav__image {
+    margin: 0 10px;
+}
+.slider-nav .slick-arrow {
+    top: 50%;
+    margin-top: -19px;
+    bottom: auto;
+    left: -20px;
+    right: auto;
+    transform: none;
+}
+.slider-nav .slick-next {
+    right: -20px;
+    left: auto;
+}
+.slider-for__image {
+    height: 335px;
+    }
+    .card-info__price {
+    font-size: 25px;
+}
+.card .title-section {
+    padding-bottom: 0;
+}
+.row_card {
+    margin-top: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -856,6 +925,67 @@
 }
 .catalog-dropdown {
     margin-top: -1px;
+}
+.vacancies .title-section {
+    padding-bottom: 20px;
+}
+.item-vacancies__head {
+    padding: 15px 15px;
+    font-size: 21px;
+}
+.item-vacancies__content {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 15px;
+    padding-top: 0;
+}
+.page-inner {
+    font-size: 14px;
+    line-height: 22px;
+}
+.page-inner h2, .page-inner h1 {
+    font-size: 23px;
+    }
+    .page-inner h2 {
+    padding-top: 10px;
+}
+.page-inner {
+    padding-bottom: 15px;
+}
+.links-page li {
+    margin-right: 7px;
+}
+.links-page a {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 5px 14px;
+}
+.links-page {
+    padding-bottom: 15px;
+}
+.slider-for__image {
+    height: 280px;
+}
+.slider-nav__image {
+    height: 100px;
+}
+.card-info__middle {
+    display: block;
+}
+.card-info__prices {
+    padding-bottom: 10px;
+}
+.tabs-card a {
+    padding: 11px 31px;
+    font-size: 16px;
+    }
+    .tab-container-card {
+    padding: 20px 18px;
+    line-height: 25px;
+    min-height: initial;
+}
+.row_card { 
+    margin-bottom: 25px;
 }
 }
 @media only screen and (max-width : 350px) {

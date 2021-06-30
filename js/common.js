@@ -17,6 +17,14 @@ $(document).ready(function() {
 		$(".sidebar-catalog").slideToggle(200);
 	});
 
+	$('.item-vacancies__head').click(function(event) {
+		event.preventDefault();
+		$(this).parent().siblings(".item-vacancies").removeClass("active");
+		$(this).parent().siblings(".item-vacancies").find('.item-vacancies__content').slideUp(200);
+		$(this).parent().toggleClass("active");
+		$(this).siblings(".item-vacancies__content").slideToggle(200);
+	}); 
+
 
 $('.flipper').each(function(){
 var flipper =  $(this);  
@@ -256,7 +264,7 @@ flipper.flipper('init');
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 		responsive: [
 		{
-			breakpoint: 992,
+			breakpoint: 768,
 			settings: {
 				slidesToShow: 3,
 				verticalSwiping: false,
