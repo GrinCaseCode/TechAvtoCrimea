@@ -877,6 +877,10 @@
 .sto .block-form {
     margin-top: 20px;
 }
+.sto .block-form__title {
+    margin-left: 0;
+    margin-right: 0;
+}
 }
 
 /* Extra Small Devices, Phones */
