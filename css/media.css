@@ -1212,12 +1212,20 @@
 .block-form .checkbox {
     white-space: normal;
 }
+.header .logo img {
+    max-width: 128px;
+}
 }
 @media only screen and (max-width : 350px) {
     .contacts-flex {
         display: flex;
         margin-left: 0;
     }
+}
+@media only screen and (max-width : 330px) {
+.header .logo img {
+    max-width: 115px;
+}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
