@@ -92,12 +92,12 @@
         max-width: 185px;
     }
     .logo {
-     font-size: 12px;
- }
- .menu {
-     font-size: 14px;
- }
- .menu li {
+       font-size: 12px;
+   }
+   .menu {
+       font-size: 14px;
+   }
+   .menu li {
     margin-left: 26px;
 }
 .link-simple {
@@ -151,7 +151,7 @@
     font-size: 33px;
 }
 .discount .checkbox {
- margin-bottom: -19px;
+   margin-bottom: -19px;
 }
 .btn-discount__content {
     padding: 0 20px;
@@ -191,10 +191,10 @@
     font-size: 14px;
 }
 .footer::before {
- height: 15px;
+   height: 15px;
 }
 .footer {
- padding-top: 55px;
+   padding-top: 55px;
 }
 .consultation .block-form {
     min-height: initial;
@@ -272,18 +272,18 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .menu li {
-     margin-left: 15px;
- }
- .menu li:first-child {
-     margin-left: 0;
- }
- .header-middle .row {
-     align-items: center;
- }
- .header-middle {
-     padding: 7px 0;
- }
- .banner {
+       margin-left: 15px;
+   }
+   .menu li:first-child {
+       margin-left: 0;
+   }
+   .header-middle .row {
+       align-items: center;
+   }
+   .header-middle {
+       padding: 7px 0;
+   }
+   .banner {
     height: 206px;
 }
 .title-section {
@@ -295,7 +295,7 @@
     padding-bottom: 54px;
 }
 .item-category {
- font-size: 15px;
+   font-size: 15px;
 }
 .quantity {
     width: 108px;
@@ -957,9 +957,9 @@
         font-size: 21px;
     }
     .item-product__oldprice {
-     margin-right: 25px;
- }
- .item-product__prices {
+       margin-right: 25px;
+   }
+   .item-product__prices {
     padding-bottom: 14px;
 }
 .item-product .quantity + .btn-add,
@@ -1139,10 +1139,13 @@
     padding-bottom: 20px;
 }
 .row_news-page .item-news__image {
-    height: 165px;
+    height: 190px;
 }
 .nav-article {
     padding: 20px 15px;
+}
+.item-team__image {
+    height: 290px;
 }
 .page-inner blockquote {
     padding: 0 15px;
@@ -1247,9 +1250,9 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .footer__content {
-     display: block !important;
- }
- .sidebar-catalog {
+       display: block !important;
+   }
+   .sidebar-catalog {
     display: block !important;
 }
 .title-section_mobile,
