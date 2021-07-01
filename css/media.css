@@ -789,8 +789,8 @@
     border-bottom: 1px solid #000814;
 }
 .modal-wrap .block-form {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .modal-wrap .checkbox-wrap .checkbox {
     white-space: normal;
@@ -1000,8 +1000,8 @@
     line-height: 21px;
 }
 .consultation .block-form {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .block-form__title {
     font-size: 20px;
@@ -1126,8 +1126,8 @@
     max-width: 50%;
 }
 .contacts .block-form {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .contacts .checkbox-wrap .checkbox {
     white-space: normal;
@@ -1202,8 +1202,8 @@
     margin-bottom: 20px;
 }
 .block-form {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .block-form .checkbox {
     white-space: normal;
