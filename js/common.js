@@ -33,7 +33,7 @@ flipper.flipper('init');
 });
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".nav-article li a").mPageScroll2id();
 
 	//кнопка sandwich
 	$(".btn-catalog").click(function() {
@@ -281,6 +281,55 @@ flipper.flipper('init');
 		}
 		]
 	});
+
+	$('.slider-team').slick({
+		dots: false,
+		arrows: true,
+		infinite: false,
+		slidesToShow: 4,
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				variableWidth: true,
+			}
+		}
+		]
+	});
+
+	 $('.row_reviews').slick({
+ 	dots: false,
+ 	arrows: false,
+ 	slidesToShow:1,
+ 	variableWidth: true,
+ 	infinite: false,
+ 	slidesToScroll: 1,
+ 	mobileFirst: true,
+ 	prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+ 	responsive: [
+ 	{
+ 		breakpoint: 992,
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
 
 	$('.tabs-card li a').click(function(event) {
 		event.preventDefault();
